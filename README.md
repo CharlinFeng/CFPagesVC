@@ -67,10 +67,63 @@ Function display
 
 Use
 ===============
-
+<br/><br/>
 #### 1.Obtain an instance
        
       let pagesVC = CFPagesVC.getInstance()
 
 
+<br/><br/>
+#### 2.Data using Closure transfer model
 
+            var titles: [String] = ["已下单","订单","这个是用户的历史订单","库存信息","Massage","所有的订单信息"]
+            
+            for i in 0..<titles.count{
+                
+                let orderVC = OrderListVC(nibName: "OrderListVC", bundle: nil)
+                
+                orderVC.index = i
+                
+                let pm = CFPagesVC.PagesDataModel(pageVC: orderVC, desc: titles[i])
+                
+                pageDataModels.append(pm)
+            }
+            
+            pagesVC.pageDataModels = pageDataModels
+
+
+<br/><br/>
+#### 3. Custom configuration
+The default is fully automatic calculation, if you are willing, you can also configure, such as specifying the width and spacing, specify the spacing between the two sides of Scrollview, etc.
+
+        /**  配置模型  */
+        let configModel = CFPagesVC.PagesConfigModel(useStaticWidthWithBarViewH: 60, leftInset: 40, rightInset: 80, staticWidth: 100)
+        pagesVC.pageConfigModel = configModel
+        
+<br/>
+Here are two models for you to choose, one is based on the length of the text automatically calculate the length of the menu text, you can specify additional width. The other one is set wide, you can also add additional width.
+
+<br/>
+This class PagesConfigModel is in the CFPagesVC namespace, and he has these properties you can customize:
+>.barViewH --- Height of menu bar
+>.leftInset --- The Scrollview menu's left inset
+>.rightInset --- The Scrollview menu's right inset
+>.useStaticWidth --- Use fixed width
+>.barViewH --- Height of menu bar
+>.staticWidth --- Fixed width value of fixed width
+>.btnExtraWidth --- Extra width of menuBtn
+
+<br/><br/>
+If you want to configure auto width, use
+
+    init(useAutoWidthWithBarViewH barViewH: CGFloat,leftInset: CGFloat,rightInset: CGFloat, btnExtraWidth: CGFloat)
+<br/>
+
+If you want to configure the fixed width, use the
+
+    init(useStaticWidthWithBarViewH barViewH: CGFloat,leftInset: CGFloat,rightInset: CGFloat, staticWidth: CGFloat)
+    
+<br/><br/><br/> 
+License
+===============
+This project is made available under the MIT license. See LICENSE.txt for details.

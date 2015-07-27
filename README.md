@@ -27,6 +27,9 @@ Chinese Fried Mention：
 
 <br /><br /><br />
 
+#### 英文水平有限，在此感谢一群小伙伴提供的非常非常热心的帮助，感谢你们！loving you~
+
+
 Explain：
 ===============
 Multi controller management based on CFPagesVC,Use CFPagesVC You can easily show your custom controller.

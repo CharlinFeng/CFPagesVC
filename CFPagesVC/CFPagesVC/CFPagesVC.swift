@@ -28,6 +28,10 @@ class CFPagesVC: UIViewController {
 
 extension CFPagesVC{
     
+    /**  初始化  */
+    class func getInstance() -> CFPagesVC{
+        return CFPagesVC(nibName: "CFPagesVC", bundle: nil)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

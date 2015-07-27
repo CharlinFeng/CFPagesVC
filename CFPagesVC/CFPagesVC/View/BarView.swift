@@ -139,7 +139,7 @@ extension BarView{
         
         //更新lineView的frame
         let x = CGRectGetMinX(newBtn.frame)
-        let y = CGRectGetMaxY(newBtn.frame) - lineH - 2
+        let y = self.bounds.size.height - lineH - 2
         let width = newBtn.frame.size.width
         let height: CGFloat = lineH
         self.lineView.layer.removeAllAnimations()

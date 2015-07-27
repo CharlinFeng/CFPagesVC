@@ -73,14 +73,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func pageVC() ->UIViewController{
         
-        let pagesVC = CFPagesVC(nibName: "CFPagesVC", bundle: nil)
         
-        /**  数据模型  */
+        //Obtain an instance
+        let pagesVC = CFPagesVC.getInstance()
+        
+        /**  Data using Closure transfer model  */
         var pageDataModels: [CFPagesVC.PagesDataModel] = []
         
         var titles: [String] = ["已下单","订单","这个是用户的历史订单","库存信息","Massage","所有的订单信息"]
         
-        for i in 0..<6{
+        for i in 0..<titles.count{
             
             let orderVC = OrderListVC(nibName: "OrderListVC", bundle: nil)
             
@@ -94,8 +96,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         pagesVC.pageDataModels = pageDataModels
     
         /**  配置模型  */
-//        let configModel = CFPagesVC.PagesConfigModel(useStaticWidthWithBarViewH: 60, leftInset: 40, rightInset: 80, staticWidth: 100)
-//        pagesVC.pageConfigModel = configModel
+        let configModel = CFPagesVC.PagesConfigModel(useStaticWidthWithBarViewH: 60, leftInset: 40, rightInset: 80, staticWidth: 100)
+        pagesVC.pageConfigModel = configModel
         
         pagesVC.title = "这是导航栏"
         

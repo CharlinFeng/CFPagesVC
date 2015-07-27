@@ -126,6 +126,12 @@ If you want to configure the fixed width, use the
     init(useStaticWidthWithBarViewH barViewH: CGFloat,leftInset: CGFloat,rightInset: CGFloat, staticWidth: CGFloat)
     
 <br/><br/><br/> 
+
+Life cycle
+===============
+Because of the use of collectionview，CFPagesVC management of your custom controller, has a strict logical life cycle，
+In the custom controller inside, I print the life cycle of the process, you can view the output of the Xcode console, understand the process of switching the controller in your master, master their life cycle
+<br/><br/><br/> 
 License
 ===============
 This project is made available under the MIT license. See LICENSE.txt for details.

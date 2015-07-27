@@ -34,10 +34,10 @@ CorePagesView: https://github.com/nsdictionary/CorePagesView.
 
 The difference between these two versions is that CorePagesView is based on OC, the use of Scrollview is complete, while the CFPagesVC is based on Swift, and the clever use of CollectionView.
 
-
+<br/><br/><br/>
 Function display
 ===============
-<br/><br/>
+<br/>
 #### No NavigationController, no TabbarController
 ![image](./CFPagesVC/show1.gif)<br />
 

@@ -23,36 +23,36 @@ class OrderListVC: UIViewController {
 
         label.text = "第\(index)页"
 
-//        println("第\(index)页 - viewDidLoad")
+        println("第\(index)页 - viewDidLoad")
         
         self.title = "这是导航栏"
         
     }
     
-//    
-//    override func viewWillAppear(animated: Bool) {
-//        super.viewWillAppear(animated)
-//        
-//        println("第\(index)页 - viewWillAppear")
-//    }
-//
-//    override func viewDidAppear(animated: Bool) {
-//        super.viewDidAppear(animated)
-//        
-//        println("第\(index)页 - viewDidAppear")
-//    }
-//    
-//    override func viewWillDisappear(animated: Bool) {
-//        super.viewWillDisappear(animated)
-//        
-//        println("第\(index)页 - viewWillDisappear")
-//    }
-//    
-//    override func viewDidDisappear(animated: Bool) {
-//        super.viewDidDisappear(animated)
-//        
-//        println("第\(index)页 - viewDidDisappear")
-//    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        println("第\(index)页 - viewWillAppear")
+    }
+
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        println("第\(index)页 - viewDidAppear")
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        println("第\(index)页 - viewWillDisappear")
+    }
+    
+    override func viewDidDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+        
+        println("第\(index)页 - viewDidDisappear")
+    }
 
     
     

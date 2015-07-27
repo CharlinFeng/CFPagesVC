@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14C2055" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CFPagesVC" customModule="CFPagesVC" customModuleProvider="target">
+            <connections>
+                <outlet property="barView" destination="ASt-vJ-EOr" id="nOX-DC-tbT"/>
+                <outlet property="barViewHC" destination="AuL-v3-CcX" id="A4j-6b-cAg"/>
+                <outlet property="collectionView" destination="RAD-6d-I7S" id="piD-PF-wDh"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="RAD-6d-I7S">
+                    <rect key="frame" x="0.0" y="44" width="600" height="556"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="dVM-gB-5Fp">
+                        <size key="itemSize" width="50" height="0.0"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="4Mu-fu-uK0"/>
+                        <outlet property="delegate" destination="-1" id="Pg9-0o-hHb"/>
+                    </connections>
+                </collectionView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ASt-vJ-EOr" userLabel="BarView" customClass="BarView" customModule="CFPagesVC" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="AuL-v3-CcX"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="RAD-6d-I7S" secondAttribute="bottom" id="2m8-Lg-v2w"/>
+                <constraint firstItem="ASt-vJ-EOr" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="7NB-Sj-0Hv"/>
+                <constraint firstItem="RAD-6d-I7S" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="85G-wf-STh"/>
+                <constraint firstAttribute="trailing" secondItem="ASt-vJ-EOr" secondAttribute="trailing" id="Ipf-tb-xOi"/>
+                <constraint firstItem="RAD-6d-I7S" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="OL3-pO-gYN"/>
+                <constraint firstItem="ASt-vJ-EOr" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="cW7-x1-3PY"/>
+                <constraint firstAttribute="trailing" secondItem="RAD-6d-I7S" secondAttribute="trailing" id="hsH-oO-227"/>
+                <constraint firstItem="RAD-6d-I7S" firstAttribute="top" secondItem="ASt-vJ-EOr" secondAttribute="bottom" id="mb6-WC-66Z"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="OL3-pO-gYN"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="320" y="137"/>
+        </view>
+    </objects>
+</document>

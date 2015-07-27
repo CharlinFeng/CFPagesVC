@@ -3,6 +3,7 @@
 # CFPagesVC
     Professional Multi controller management Framework based on Swift
 
+<br /><br />
 Chinese Fried Mention：
 ===============
 <br />
@@ -23,7 +24,7 @@ Chinese Fried Mention：
 【全国可加】一群：163865401<br />
 **WORNING: 已爆满，加不上了**<br /><br />
 
-
+<br /><br /><br />
 
 Explain：
 ===============
@@ -104,14 +105,14 @@ The default is fully automatic calculation, if you are willing, you can also con
 Here are two models for you to choose, one is based on the length of the text automatically calculate the length of the menu text, you can specify additional width. The other one is set wide, you can also add additional width.
 
 <br/>
-This class PagesConfigModel is in the CFPagesVC namespace, and he has these properties you can customize:
->.barViewH --- Height of menu bar
->.leftInset --- The Scrollview menu's left inset
->.rightInset --- The Scrollview menu's right inset
->.useStaticWidth --- Use fixed width
->.barViewH --- Height of menu bar
->.staticWidth --- Fixed width value of fixed width
->.btnExtraWidth --- Extra width of menuBtn
+This class PagesConfigModel is in the CFPagesVC namespace, and he has these properties you can customize:<br />
+>.barViewH --- Height of menu bar.<br />
+>.leftInset --- The Scrollview menu's left inset.<br />
+>.rightInset --- The Scrollview menu's right inset.<br />
+>.useStaticWidth --- Use fixed width.<br />
+>.barViewH --- Height of menu bar.<br />
+>.staticWidth --- Fixed width value of fixed width.<br />
+>.btnExtraWidth --- Extra width of menuBtn.
 
 <br/><br/>
 If you want to configure auto width, use

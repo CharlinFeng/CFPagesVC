@@ -5,7 +5,7 @@
     Professional Multi controller management Framework based on Swift
 
 <br />
-#### 英文水平有限，在此感谢一群小伙伴提供的非常非常热心的帮助，感谢你们！loving you~
+#### 英文水平有限，在此感谢成都iOS开发_Charlin QQ一群小伙伴提供的非常非常热心的帮助，感谢你们！loving you~
 <br />
 <br /><br />
 Chinese Fried Mention：

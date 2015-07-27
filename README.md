@@ -4,10 +4,18 @@
 # CFPagesVC
     Professional Multi controller management Framework based on Swift
 
-<br />
-#### 在此感谢成都iOS开发_Charlin QQ一群小伙伴（成都-任添糖、薛定谔的猫、成都－Eval，上海-Momo 等）提供的非常非常热心的英文“改错”帮助，感谢你们！loving you~
-<br />
-<br /><br />
+<br /><br /><br />
+
+Thanks
+===============
+在此感谢成都iOS开发_Charlin QQ一群小伙伴提供的非常非常热心的英文“改错”帮助，感谢你们！loving you~<br />
+>.成都-任添糖<br />
+>.薛定谔的猫<br />
+>.成都－Eval<br />
+>.上海-Momo<br />
+
+
+<br /><br /><br />
 Chinese Fried Mention：
 ===============
 <br />

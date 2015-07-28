@@ -93,7 +93,7 @@ Use
 #### 3. Custom configuration
 The default is fully automatic calculation, if you are willing, you can also configure, such as specifying the width and spacing, specify the spacing between the two sides of Scrollview, etc.
 
-        /**  配置模型  */
+        /**  Custom configuration  */
         let configModel = CFPagesVC.PagesConfigModel(useStaticWidthWithBarViewH: 60, leftInset: 40, rightInset: 80, staticWidth: 100)
         pagesVC.pageConfigModel = configModel
         
@@ -131,7 +131,7 @@ License
 This project is made available under the MIT license. See LICENSE.txt for details.
 
 <br /><br /><br />
-Chinese Fried Mention：
+中国及西部地区朋友请加
 ===============
 <br />
 #### 特别群：请西部省市朋友实名加入组织。其他地区朋友请添加2-4群：谢谢。

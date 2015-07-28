@@ -54,7 +54,6 @@ extension BarView{
     
     /**  准备菜单列表  */
     func meauPrepare(){
-    
         
         if pageModels==nil || pageModels.count == 0 {return}
         
@@ -70,7 +69,7 @@ extension BarView{
             barItemBtn.tag = index
             
             /**  菜单点击事件  */
-            barItemBtn.addTarget(self, action: "btnClick:", forControlEvents: UIControlEvents.TouchUpInside)
+            barItemBtn.addTarget(self, action: "btnClick:", forControlEvents: UIControlEvents.TouchDown)
 
             //添加
             self.scrollView.addSubview(barItemBtn)

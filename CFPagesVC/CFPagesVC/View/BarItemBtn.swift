@@ -11,11 +11,7 @@ import UIKit
 
 class BarItemBtn: UIButton {
     
-    var btnBasedTextWidth: CGFloat {
-        
-        return (self.currentTitle as! NSString).sizeWithAttributes([NSFontAttributeName: self.titleLabel!.font]).width
-
-    }
+    var btnBasedTextWidth: CGFloat {return (self.currentTitle as! NSString).sizeWithAttributes([NSFontAttributeName: self.titleLabel!.font]).width}
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -32,17 +28,18 @@ class BarItemBtn: UIButton {
     }
 }
 
+
 extension BarItemBtn{
     
     /**  视图准备  */
     func viewPrepare(){
         
         self.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
-        
         self.setTitleColor(UIColor.redColor(), forState: UIControlState.Selected)
-        self.backgroundColor = UIColor.clearColor()
+        self.setTitleColor(UIColor.redColor(), forState: UIControlState.Highlighted)
         self.layer.borderWidth = 1
         self.layer.borderColor = UIColor.brownColor().CGColor
+        self.adjustsImageWhenHighlighted = false
     }
     
     

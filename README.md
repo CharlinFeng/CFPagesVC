@@ -124,8 +124,7 @@ If you want to configure the fixed width, use the
 
 Life cycle
 ===============
-Because of the use of collectionview，CFPagesVC management of your custom controller, has a strict logical life cycle，
-In the custom controller inside, I print the life cycle of the process, you can view the output of the Xcode console, understand the process of switching the controller in your master, master their life cycle
+By using collectionview,CFPagesVC has a strict logical life cycle in managing your custom controller. Inside custom controller, the process of life cycle is printed in console to show the process of switching .
 <br/><br/><br/> 
 License
 ===============

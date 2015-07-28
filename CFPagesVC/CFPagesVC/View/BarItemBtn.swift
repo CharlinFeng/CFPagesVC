@@ -15,7 +15,6 @@ class BarItemBtn: UIButton {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        
         /**  视图准备  */
         viewPrepare()
     }
@@ -35,8 +34,9 @@ extension BarItemBtn{
     func viewPrepare(){
         
         self.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
-        self.setTitleColor(UIColor.redColor(), forState: UIControlState.Selected)
-        self.setTitleColor(UIColor.redColor(), forState: UIControlState.Highlighted)
+        self.setTitleColor(UIColor.redColor(), forState:UIControlState.Highlighted|UIControlState.Selected)
+        self.setTitleColor(UIColor.redColor(), forState:UIControlState.Selected)
+      
         self.layer.borderWidth = 1
         self.layer.borderColor = UIColor.brownColor().CGColor
         self.adjustsImageWhenHighlighted = false

@@ -4,15 +4,6 @@
 # CFPagesVC
     Professional Multi controller management Framework based on Swift
 
-<br /><br /><br />
-
-Thanks
-===============
-在此感谢成都iOS开发_Charlin QQ一群小伙伴提供的非常非常热心的英文“改错”帮助，感谢你们！loving you~<br />
->.成都-任添糖<br />
->.薛定谔的猫<br />
->.成都－Eval<br />
->.上海-Momo<br />
 
 
 
@@ -150,3 +141,14 @@ This project is made available under the MIT license. See LICENSE.txt for detail
 
 【全国可加】一群：163865401<br />
 **WORNING: 已爆满，加不上了**<br /><br />
+
+<br /><br /><br />
+
+Thanks
+===============
+在此感谢成都iOS开发_Charlin QQ一群小伙伴提供的非常非常热心的英文“改错”帮助，感谢你们！loving you~<br />
+>.成都-任添糖<br />
+>.薛定谔的猫<br />
+>.成都－Eval<br />
+>.上海-Momo<br />
+

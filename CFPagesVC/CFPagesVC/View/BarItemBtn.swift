@@ -19,7 +19,7 @@ class BarItemBtn: UIButton {
         viewPrepare()
     }
     
-    required init(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
         /**  视图准备  */
@@ -34,7 +34,7 @@ extension BarItemBtn{
     func viewPrepare(){
         
         self.setTitleColor(UIColor.blackColor(), forState: UIControlState.Normal)
-        self.setTitleColor(UIColor.redColor(), forState:UIControlState.Highlighted|UIControlState.Selected)
+        self.setTitleColor(UIColor.redColor(), forState:[UIControlState.Highlighted, UIControlState.Selected])
         self.setTitleColor(UIColor.redColor(), forState:UIControlState.Selected)
       
         self.layer.borderWidth = 1

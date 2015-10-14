@@ -51,7 +51,7 @@ extension CFPagesVC{
         
         if pageDataModels == nil || pageDataModels.count == 0 {return}
         
-        for (index,pageDataModel) in enumerate(pageDataModels){
+        for (_,pageDataModel) in pageDataModels.enumerate(){
             self.addChildViewController(pageDataModel.pageVC)
         }
     }

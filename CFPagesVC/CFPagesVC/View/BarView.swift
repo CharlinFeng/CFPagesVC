@@ -57,7 +57,7 @@ extension BarView{
         
         if pageModels==nil || pageModels.count == 0 {return}
         
-        for (index, pageModel) in enumerate(pageModels){
+        for (index, pageModel) in pageModels.enumerate(){
             
             //创建
             let barItemBtn = BarItemBtn()
@@ -116,7 +116,7 @@ extension BarView{
         self.scrollView.frame = self.bounds
         
         //遍历
-        for (i, btn) in enumerate(self.btns){
+        for (i, btn) in self.btns.enumerate(){
             
             let width = configModel.useStaticWidth ? configModel.staticWidth : btn.btnBasedTextWidth + configModel.btnExtraWidth
             

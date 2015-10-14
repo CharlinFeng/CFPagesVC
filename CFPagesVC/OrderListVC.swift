@@ -23,7 +23,7 @@ class OrderListVC: UIViewController {
 
         label.text = "第\(index)页"
 
-        println("第\(index)页 - viewDidLoad")
+        print("第\(index)页 - viewDidLoad")
         
         self.title = "这是导航栏"
         
@@ -33,25 +33,25 @@ class OrderListVC: UIViewController {
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
-        println("第\(index)页 - viewWillAppear")
+        print("第\(index)页 - viewWillAppear")
     }
 
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
-        println("第\(index)页 - viewDidAppear")
+        print("第\(index)页 - viewDidAppear")
     }
     
     override func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(animated)
         
-        println("第\(index)页 - viewWillDisappear")
+        print("第\(index)页 - viewWillDisappear")
     }
     
     override func viewDidDisappear(animated: Bool) {
         super.viewDidDisappear(animated)
         
-        println("第\(index)页 - viewDidDisappear")
+        print("第\(index)页 - viewDidDisappear")
     }
 
     

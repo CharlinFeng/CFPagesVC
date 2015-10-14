@@ -36,6 +36,8 @@ extension CFPagesVC: UICollectionViewDataSource,UICollectionViewDelegate{
     
     override func viewWillAppear(animated: Bool) {
         
+        super.viewWillAppear(animated)
+        
         if self.collectionView.tag == 1 {return}
         
     

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8904AEA71B5FCA6E006B708E /* CFPagesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8904AEA61B5FCA6E006B708E /* CFPagesModel.swift */; };
-		8904AEA91B5FCC02006B708E /* UIView+Extend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8904AEA81B5FCC02006B708E /* UIView+Extend.swift */; };
+		8904AEA91B5FCC02006B708E /* UIView+PageVCExtend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8904AEA81B5FCC02006B708E /* UIView+PageVCExtend.swift */; };
 		8904AEAC1B5FCDC0006B708E /* OrderListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8904AEAA1B5FCDC0006B708E /* OrderListVC.swift */; };
 		8904AEAD1B5FCDC0006B708E /* OrderListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8904AEAB1B5FCDC0006B708E /* OrderListVC.xib */; };
 		893563511B6118CE0027CD44 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893563501B6118CE0027CD44 /* BarView.swift */; };
@@ -47,7 +47,7 @@
 
 /* Begin PBXFileReference section */
 		8904AEA61B5FCA6E006B708E /* CFPagesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CFPagesModel.swift; sourceTree = "<group>"; };
-		8904AEA81B5FCC02006B708E /* UIView+Extend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extend.swift"; sourceTree = "<group>"; };
+		8904AEA81B5FCC02006B708E /* UIView+PageVCExtend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+PageVCExtend.swift"; sourceTree = "<group>"; };
 		8904AEAA1B5FCDC0006B708E /* OrderListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderListVC.swift; sourceTree = "<group>"; };
 		8904AEAB1B5FCDC0006B708E /* OrderListVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderListVC.xib; sourceTree = "<group>"; };
 		893563501B6118CE0027CD44 /* BarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
@@ -215,7 +215,7 @@
 		895711D61B5FC0360080E3A6 /* Extend */ = {
 			isa = PBXGroup;
 			children = (
-				8904AEA81B5FCC02006B708E /* UIView+Extend.swift */,
+				8904AEA81B5FCC02006B708E /* UIView+PageVCExtend.swift */,
 			);
 			path = Extend;
 			sourceTree = "<group>";
@@ -335,7 +335,7 @@
 			files = (
 				893563511B6118CE0027CD44 /* BarView.swift in Sources */,
 				895711D01B5FBDCD0080E3A6 /* CFPageCell.swift in Sources */,
-				8904AEA91B5FCC02006B708E /* UIView+Extend.swift in Sources */,
+				8904AEA91B5FCC02006B708E /* UIView+PageVCExtend.swift in Sources */,
 				895711CF1B5FBDCD0080E3A6 /* CFPagesVC+CollectionView.swift in Sources */,
 				895711CE1B5FBDCD0080E3A6 /* CFPagesVC.swift in Sources */,
 				8904AEAC1B5FCDC0006B708E /* OrderListVC.swift in Sources */,

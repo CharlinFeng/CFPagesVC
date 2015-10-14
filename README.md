@@ -1,7 +1,7 @@
 ![image](./CFPagesVC/show.jpg)<br />
 ##### 中国.成都冯成林原创，请支持原创，谢谢            --- Charlin Feng
 
-# CFPagesVC
+# CFPagesVC （持续关注[信息公告牌](https://github.com/CharlinFeng/Show)）
     Professional Multi controller management Framework based on Swift
 
 
@@ -120,35 +120,3 @@ By using collectionview,CFPagesVC has a strict logical life cycle in managing yo
 License
 ===============
 This project is made available under the MIT license. See LICENSE.txt for details.
-
-<br /><br /><br />
-中国及西部地区朋友请加
-===============
-<br />
-#### 特别群：请西部省市朋友实名加入组织。其他地区朋友请添加2-4群：谢谢。
-<br />
-【西部区域】西部大开发群号： 473185026  -追赶北上广！为振兴西部IT而努力！<br />
-热烈欢迎中国西部各省市的从事iOS开发朋友实名进群！本群为是聚集西部零散开发者，大家齐心协力共进退！ <br /><br />
-
-【全国可加】四群： 347446259<br />
-新开，可加！欢迎全国朋友加入组织 <br /><br />
-
-【全国可加】三群： 474377358<br />
-新开，可加！欢迎全国朋友加入组织 <br /><br />
-
-【全国可加】二群： 369870753<br />
-**WORNING: 已爆满，加不上了**<br /><br />
-
-【全国可加】一群：163865401<br />
-**WORNING: 已爆满，加不上了**<br /><br />
-
-<br /><br /><br />
-
-Thanks
-===============
-在此感谢成都iOS开发_Charlin QQ一群小伙伴提供的非常非常热心的英文“改错”帮助，感谢你们！loving you~<br />
->.成都-任添糖<br />
->.薛定谔的猫<br />
->.成都－Eval<br />
->.上海-Momo<br />
-
